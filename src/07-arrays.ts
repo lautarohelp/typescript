@@ -15,7 +15,7 @@ mixed.push(true);
 mixed.push({});
 mixed.push([]);
 
-const numbers = ['asdfgh'];
+const numbers = [1,1,2];
 numbers.map(i => i * 2);
 
 })();
