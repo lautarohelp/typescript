@@ -16,12 +16,12 @@
   shirtSize = 'XL';
   // shirtSize = 's';
 
-  function greeting(userId: UserID, size: Sizes) {
+  function greeting2(userId: UserID, size: Sizes) {
     if (typeof userId === 'string') {
       console.log(`string ${userId.toLocaleLowerCase()}`);
     }
   }
-  greeting(111, 'S');
-  greeting(111, 'XL');
+  greeting2(111, 'S');
+  greeting2(111, 'XL');
 
 })();
